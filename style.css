@@ -265,3 +265,6 @@ h3 {
 	margin-right: 30px;
 	border-radius: 50%;
 }
+.testomonials-col:hover {
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
