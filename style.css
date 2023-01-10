@@ -225,3 +225,21 @@ h3 {
 	bottom: 49%;
 	opacity: 1;
 }
+
+.about {
+		width: 90%;
+		color: #777;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		text-align: center;
+}
+.about h1 {
+	color: black;
+	font-size: 32px;
+	font-weight: 600;
+}
+#about {
+	transition: 1s;
+}
