@@ -42,3 +42,8 @@ nav img {
 	background-color: #555;
 	/* color: navy; */
 }
+
+.title {
+	text-align: center;
+	font-size: 45px;
+}
