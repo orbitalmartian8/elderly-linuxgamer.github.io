@@ -323,7 +323,7 @@ h3 {
 	margin: 0 13px;
 	cursor: pointer;
 	padding: 18px 0;
-	transition: 1s;
+	transition: 0.5s;
 }
 .icons a {
 	color: #222;
