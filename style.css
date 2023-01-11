@@ -1,7 +1,12 @@
+:root {
+	--brand-color: ;
+}
+
 * {
 	margin: 0;
 	padding: 0;
 	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
 }
 body {
 	background-color: #fff;
@@ -235,6 +240,7 @@ h3 {
 		text-align: center;
 		margin-top: 10px;
 		align-items: center;
+		justify-content: center;
 }
 .home-about h1 {
 	color: black;
@@ -333,6 +339,17 @@ h3 {
 }
 .fa-heart-o {
 	color: #f44336;
+}
+.icons img {
+	width: 20px;
+	height: 20px;
+	filter: grayscale(100%);
+	transition: 0.5s;
+	cursor: pointer;
+}
+.icons img:hover {
+	filter: grayscale(0%);
+	transition: 0.5s;
 }
 
 .sub-header {
@@ -523,3 +540,45 @@ nav li:hover ul {
 nav ul ul li {
     width: 100%;
 }
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 80%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  margin: auto;
+}
+
+.skills {
+  text-align: center; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+  
+}
+.skills h2 {
+	color: #222;
+	text-decoration: underline;
+}
+
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 90%; background-color: #2196F3;}
+.js {width: 25%; background-color: #e2e605;}
+.python {width: 60%; background-color: #1512bd;}
+
+.rainbow-text {
+	background-image: repeating-linear-gradient(45deg, violet, rgb(91, 91, 255), green, yellow, orange, red, violet);
+	text-align: center;
+	background-size: 800% 800%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 24px;
+	animation: rainbow 50s ease infinite;
+  }
+  
+  @keyframes rainbow { 
+	  0%{background-position:0% 50%}
+	  50%{background-position:100% 25%}
+	  100%{background-position:0% 50%}
+  }
