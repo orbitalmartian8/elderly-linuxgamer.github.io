@@ -321,6 +321,9 @@ h3 {
 	padding: 18px 0;
 	transition: 1s;
 }
+.icons a {
+	color: #222;
+}
 .icons .fa:hover {
 	color: #f44336;
 }
