@@ -234,11 +234,15 @@ h3 {
 		transform: translate(-50%,-50%);
 		text-align: center;
 		margin-top: 10px;
+		align-items: center;
 }
 .home-about h1 {
 	color: black;
 	font-size: 32px;
 	font-weight: 600;
+}
+.home-about p {
+	color: #222;
 }
 #about {
 	transition: 1s;
@@ -352,6 +356,7 @@ h3 {
 .about-box {
 	width: 77%;
 	text-align: center;
+	padding-left: 10%;
 }
 .about-col img {
 	width: 100%;
@@ -489,4 +494,32 @@ h3 {
 	margin-bottom: 5px;
 	color: #555;
 	font-weight: 400;
+}
+
+nav ul,
+nav ol, 
+nav li {
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: #d0d0d0;
+}
+nav ul ul {
+    max-width: 11em;
+    background: transparent;
+    position: absolute;
+    z-index: 99;
+    display: none;
+	text-align: center;
+	transition: 1s;
+}
+nav li:hover ul {
+    display: block;
+}
+nav ul ul li {
+    width: 100%;
 }
