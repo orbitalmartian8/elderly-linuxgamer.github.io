@@ -331,7 +331,6 @@ h3 {
 	font-weight: 600;
 }
 .icons {
-	opacity: 0.5;
 	width: 50%;
 	margin: auto;
 }
@@ -363,6 +362,7 @@ h3 {
 .icons img:hover {
 	filter: grayscale(0%);
 	transition: 0.5s;
+
 }
 
 .sub-header {
@@ -643,8 +643,7 @@ nav ul ul li {
 	position: fixed;
 	width: 100%;
 	z-index:50;
-	opacity: 75%;
-
+	opacity: 80%;
   }
   .alert-container {
 	scroll-snap-type: y mandatory;
