@@ -582,3 +582,33 @@ nav ul ul li {
 	  50%{background-position:100% 25%}
 	  100%{background-position:0% 50%}
   }
+  .card {
+	transition: 0.3s;
+	width: 49%;
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #fff3f3;
+	border-width: 2px;
+	border-color: #999;
+	border: 2px #999 10px
+  }
+
+  .card img {
+	border-radius: 10px;
+	padding-top: 5px;
+  }
+  
+  .card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	border-width: 4px;
+	border-color: #777;
+  }
+  .card-container {
+	padding: 2px 16px;
+  }
+  .projects h2 {
+	text-align: center;
+	text-decoration: underline;
+	padding-bottom: 10px;
+  }
