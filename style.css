@@ -316,26 +316,39 @@ h3 {
 	}
 }
 .footer {
+	padding-top: 15px;
+	margin-top: 15px;
 	width: 100%;
 	text-align: center;
 	padding: 30px 0;
+	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner.png);
+	background-position: center;
+	background-size: cover;
 }
 .footer h4 {
 	margin-bottom: 25px;
 	margin-top: 20px;
 	font-weight: 600;
 }
+.icons {
+	opacity: 0.5;
+	width: 50%;
+	margin: auto;
+}
 .icons .fa {
 	margin: 0 13px;
 	cursor: pointer;
 	padding: 18px 0;
 	transition: 0.5s;
+	color: #f44336;
+	opacity: 0.5;
 }
 .icons a {
 	color: #222;
 }
 .icons .fa:hover {
 	color: #f44336;
+	opacity: 1;
 }
 .fa-heart-o {
 	color: #f44336;
@@ -589,9 +602,10 @@ nav ul ul li {
 	padding-left: 10px;
 	padding-right: 10px;
 	background-color: #fff3f3;
-	border-width: 2px;
-	border-color: #999;
-	border: 2px #999 10px
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin: auto;
   }
 
   .card img {
@@ -601,8 +615,6 @@ nav ul ul li {
   
   .card:hover {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-	border-width: 4px;
-	border-color: #777;
   }
   .card-container {
 	padding: 2px 16px;
