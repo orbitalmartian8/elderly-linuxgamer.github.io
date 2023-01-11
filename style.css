@@ -225,7 +225,7 @@ h3 {
 	opacity: 1;
 }
 
-.about-home {
+.home-about {
 		width: 90%;
 		color: #777;
 		position: relative;
@@ -233,8 +233,9 @@ h3 {
 		left: 50%;
 		transform: translate(-50%,-50%);
 		text-align: center;
+		margin-top: 10px;
 }
-.about-home h1 {
+.home-about h1 {
 	color: black;
 	font-size: 32px;
 	font-weight: 600;
