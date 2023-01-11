@@ -606,6 +606,7 @@ nav ul ul li {
 	align-items: center;
 	position: relative;
 	margin: auto;
+	transition: 0.5s;
   }
 
   .card img {
@@ -613,8 +614,17 @@ nav ul ul li {
 	padding-top: 5px;
   }
   
+  .card a {
+	display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: #222;
+  }
+
   .card:hover {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	transition: 0.5s;
+	cursor: pointer;
   }
   .card-container {
 	padding: 2px 16px;
@@ -623,4 +633,40 @@ nav ul ul li {
 	text-align: center;
 	text-decoration: underline;
 	padding-bottom: 10px;
+  }
+
+  /* The alert message box */
+.alert {
+	padding: 20px;
+	background-color: #0f5c00; /* Red */
+	color: white;
+	position: fixed;
+	width: 100%;
+	z-index:50;
+	opacity: 75%;
+
+  }
+  .alert-container {
+	scroll-snap-type: y mandatory;
+  }
+  
+  .alert-child {
+	scroll-snap-align: start;
+  }
+  
+  /* The close button */
+  .closebtn {
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+	color: black;
   }
