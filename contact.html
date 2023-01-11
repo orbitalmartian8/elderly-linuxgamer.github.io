@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tech and Art Content Creator. Find my Art and Programming Portfolios, Links to my socials, blog posts and much more.">
+    <meta charset="utf-8">
+    <title>LinuxGamer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/5904c3a2bb.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index"><img src="" alt="Logo"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="gallery">Gallery</a></li>
+            <li><a href="projects">Projects</a></li>
+            <li><a href="contact">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact</h1>
+    </section>
+    <section class="location">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9555323.135867551!2d-13.43350533594767!3d54.21827529950566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25a3b1142c791a9%3A0xc4f8a0433288257a!2sUnited%20Kingdom!5e0!3m2!1sen!2suk!4v1673432726953!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="contact">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fa fa-home"></i>
+            <span>
+              <h5>London</h5>
+              <p>United Kingdom</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+              <h5>charl.cj.monke@gmail.com</h5>
+              <p>Email your queries</p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>Lorum ipsum</p>
+      <div class="icons">
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-youtube"></i>
+        <i class="fa fa-twitch"></i>
+        <i class="fa fa-brands fa-discord"></i>
+        <i class="fa fa-brands fa-mastodon"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by CJ</p>
+    </section>
+  <script>
+    
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+  </script>
+  </body>
+</html>
