@@ -3,6 +3,7 @@
 	--dark-color: #152D73;
 	--mid-color: #D4D4D8;
 	--light-color: #F8FAFC;
+	--dark-color-2: #311f96;
 	  }
 
 * {
@@ -12,8 +13,8 @@
 	scroll-behavior: smooth;
 }
 body {
-	background-color: var(--mid-color);
-	color: black;
+	background-color: var(--dark-color);
+	color: var(--light-color);
 }
 .header {
 	width: 100%;
@@ -93,8 +94,10 @@ nav img {
 	padding: 12px 34px;
 	font-size: 13px;
 	background: transparent;
+	border-radius: 10px;
 	position: relative;
 	cursor: pointer;
+	transition: 1s;
 }
 .hero-btn:hover {
 	border: 1px solid var(--brand-color);
@@ -214,6 +217,7 @@ h3 {
 }
 .layer:hover {
 	background: var(--brand-color);
+	opacity: 50%;
 }
 .layer h3 {
 	width: 100%;
@@ -235,7 +239,7 @@ h3 {
 
 .home-about {
 		width: 90%;
-		color: #777;
+		color: var(--mid-color);
 		position: relative;
 		top: 50%;
 		left: 50%;
@@ -246,12 +250,12 @@ h3 {
 		justify-content: center;
 }
 .home-about h1 {
-	color: black;
+	color: var(--light-color);
 	font-size: 32px;
 	font-weight: 600;
 }
 .home-about p {
-	color: #222;
+	color: var(--mid-color);
 }
 #about {
 	transition: 1s;
@@ -324,7 +328,7 @@ h3 {
 	width: 100%;
 	text-align: center;
 	padding: 30px 0;
-        background-color: var(--dark-color);
+        background-color: var(--dark-color-2);
 }
 .footer h4 {
 	margin-bottom: 25px;
@@ -412,6 +416,7 @@ h3 {
 	width: 80%;
 	margin: auto;
 	padding: 60px 0;
+	background-color: var(--dark-color);
 }
 .blog-left {
 	flex-basis: 65%;
