@@ -418,18 +418,20 @@ h3 {
 }
 .blog-left {
 	flex-basis: 65%;
+	background-color: var(--dark-color);
 }
 .blog-left img {
 	width: 100%;
 }
 .blog-left h2 {
-	color: #222;
+	color: var(--light-color);
 	font-weight: 600;
 	margin: 30px 0;
 }
 .blog-left p {
-	color: #999;
+	color: var(--mid-color);
 	padding: 0;
+	background-color: var(--dark-color);
 }
 
 .blog-right {
