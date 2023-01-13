@@ -3,7 +3,7 @@
 	--dark-color: #152D73;
 	--mid-color: #D4D4D8;
 	--light-color: #F8FAFC;
-	--dark-color-2: #311f96;
+	--bg-color: #333;
 	  }
 
 * {
@@ -13,7 +13,7 @@
 	scroll-behavior: smooth;
 }
 body {
-	background-color: var(--dark-color);
+	background-color: var(--bg-color);
 	color: var(--light-color);
 }
 .header {
@@ -217,7 +217,7 @@ h3 {
 }
 .layer:hover {
 	background: var(--brand-color);
-	opacity: 50%;
+	opacity: 80%;
 }
 .layer h3 {
 	width: 100%;
@@ -233,7 +233,7 @@ h3 {
 }
 
 .layer:hover h3 {
-	bottom: 49%;
+	bottom: 45%;
 	opacity: 1;
 }
 
@@ -250,12 +250,12 @@ h3 {
 		justify-content: center;
 }
 .home-about h1 {
-	color: black;
+	color: var(--light-color);
 	font-size: 32px;
 	font-weight: 600;
 }
 .home-about p {
-	color: #222;
+	color: var(--mid-color);
 }
 #about {
 	transition: 1s;
@@ -288,10 +288,12 @@ h3 {
 }
 .testomonials-col p {
 	padding: 0;
+	color: #777;
 }
 .testomonials-col h3 {
 	margin-top: 15px;
 	text-align: left;
+	color: black;
 }
 .testomonials-col .fa {
 	color: var(--brand-color);
@@ -328,7 +330,7 @@ h3 {
 	width: 100%;
 	text-align: center;
 	padding: 30px 0;
-        background-color: var(--dark-color-2);
+    background-color: #222;
 }
 .footer h4 {
 	margin-bottom: 25px;
