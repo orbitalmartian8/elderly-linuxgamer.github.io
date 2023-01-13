@@ -324,10 +324,7 @@ h3 {
 	width: 100%;
 	text-align: center;
 	padding: 30px 0;
-	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner.png);
-	background-position: center;
-	filter: blur(45%);
-	background-size: cover;
+        background-color: var(--mid-color);
 }
 .footer h4 {
 	margin-bottom: 25px;
