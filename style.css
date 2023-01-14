@@ -250,12 +250,12 @@ h3 {
 		justify-content: center;
 }
 .home-about h1 {
-	color: var(--light-color);
+	color: black;
 	font-size: 32px;
 	font-weight: 600;
 }
 .home-about p {
-	color: var(--mid-color);
+	color: #555;
 }
 #about {
 	transition: 1s;
