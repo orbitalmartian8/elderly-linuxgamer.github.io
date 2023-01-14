@@ -19,47 +19,85 @@
           <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="about">About</a></li>
-            <!-- <li><a href="gallery">Gallery</a></li>
-            <li><a href="projects">Projects</a></li> -->
             <li><a href="blog">Blog</a></li>
-            <li><a href="">Portfolios</a>
+            <li>Portfolios
               <ul>
                 <li><a href="gallery">Gallery</a></li>
                 <li><a href="projects">Projects</a></li>
               </ul>
-            </li> 
+            </li>
             <li><a href="contact">Contact</a></li>
           </ul>
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
       </nav>
-      <h1>Contact</h1>
+      <h1>My Art Gallery</h1>
     </section>
-    <section class="location">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9555323.135867551!2d-13.43350533594767!3d54.21827529950566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25a3b1142c791a9%3A0xc4f8a0433288257a!2sUnited%20Kingdom!5e0!3m2!1sen!2suk!4v1673432726953!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </section>
-
-    <section class="contact">
+    <section class="home2">
+      <h1>My Art</h1>
+      <p>A selection of my art pieces.</p>
       <div class="row">
-        <div class="contact-col">
-          <div>
-            <i class="fa fa-home"></i>
-            <span>
-              <h5>London</h5>
-              <p>United Kingdom</p>
-            </span>
+        <div class="home2-col">
+          <img src="images/banner.png" alt="">
+          <div class="layer">
+            <h3>Art 1</h3>
           </div>
-          <div>
-            <i class="fa fa-envelope-o"></i>
-            <span>
-              <h5>charl.cj.monke@gmail.com</h5>
-              <p>Email your queries</p>
-            </span>
+        </div>
+        <div class="home2-col">
+          <img src="images/banner.png" alt="">
+          <div class="layer">
+            <h3>Art 2</h3>
+          </div>
+        </div>
+        <div class="home2-col">
+          <img src="images/banner.png" alt="">
+          <div class="layer">
+            <h3>Art 3</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="home2-col">
+          <img src="images/banner.png" alt="">
+          <div class="layer">
+            <h3>Art 1</h3>
+          </div>
+        </div>
+        <div class="home2-col">
+          <img src="images/banner.png" alt="">
+          <div class="layer">
+            <h3>Art 2</h3>
+          </div>
+        </div>
+        <div class="home2-col">
+          <img src="images/banner.png" alt="">
+          <div class="layer">
+            <h3>Art 3</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="home2-col">
+          <img src="images/banner.png" alt="">
+          <div class="layer">
+            <h3>Art 1</h3>
+          </div>
+        </div>
+        <div class="home2-col">
+          <img src="images/banner.png" alt="">
+          <div class="layer">
+            <h3>Art 2</h3>
+          </div>
+        </div>
+        <div class="home2-col">
+          <img src="images/banner.png" alt="">
+          <div class="layer">
+            <h3>Art 3</h3>
           </div>
         </div>
       </div>
     </section>
+
 
     <section class="footer">
       <h4>About Us</h4>
@@ -74,13 +112,13 @@
       <p>Made with <i class="fa fa-heart-o"></i> by CJ</p>
     </section>
   <script>
-    
+
     var navLinks = document.getElementById("navLinks");
 
     function showMenu(){
         navLinks.style.right = "0";
     }
-    
+
     function hideMenu(){
         navLinks.style.right = "-200px";
     }

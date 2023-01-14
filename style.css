@@ -384,12 +384,13 @@ h3 {
 }
 .sub-header h1 {
 	margin-top: 100px;
+	color: #fff;
 }
 .about {
 	width: 80%;
 	margin: auto;
 	padding-top: 80px;
-	padding-bottom: 50px;	
+	padding-bottom: 50px;
 }
 .about-box {
 	width: 77%;
@@ -412,7 +413,7 @@ h3 {
 	transition: 0.5s;
 }
 .red-btn:hover {
-	color:#fff;	
+	color:#fff;
 }
 
 .blog-content {
@@ -543,7 +544,7 @@ h3 {
 }
 
 nav ul,
-nav ol, 
+nav ol,
 nav li {
     margin: 0;
     padding: 0;
@@ -584,7 +585,7 @@ nav ul ul li {
   padding-top: 10px; /* Add top padding */
   padding-bottom: 10px; /* Add bottom padding */
   color: white; /* White text color */
-  
+
 }
 .skills h2 {
 	color: #222;
@@ -605,8 +606,8 @@ nav ul ul li {
 	font-size: 24px;
 	animation: rainbow 50s ease infinite;
   }
-  
-  @keyframes rainbow { 
+
+  @keyframes rainbow {
 	  0%{background-position:0% 50%}
 	  50%{background-position:100% 25%}
 	  100%{background-position:0% 50%}
@@ -629,7 +630,7 @@ nav ul ul li {
 	border-radius: 10px;
 	padding-top: 5px;
   }
-  
+
   .card a {
 	display: block;
     padding: 1em;
@@ -664,11 +665,11 @@ nav ul ul li {
   .alert-container {
 	scroll-snap-type: y mandatory;
   }
-  
+
   .alert-child {
 	scroll-snap-align: start;
   }
-  
+
   /* The close button */
   .closebtn {
 	margin-left: 15px;
@@ -680,7 +681,7 @@ nav ul ul li {
 	cursor: pointer;
 	transition: 0.3s;
   }
-  
+
   /* When moving the mouse over the close button */
   .closebtn:hover {
 	color: black;
