@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tech and Art Content Creator. Find my Art and Programming Portfolios, Links to my socials, blog posts and much more.">
+    <meta charset="utf-8">
+    <title>LinuxGamer</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/5904c3a2bb.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index"><img src="" alt="Logo"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="about">About</a></li>
+            <!-- <li><a href="gallery">Gallery</a></li>
+            <li><a href="projects">Projects</a></li> -->
+            <li><a href="blog">Blog</a></li>
+            <li><a href="">Portfolios</a>
+              <ul>
+                <li><a href="gallery">Gallery</a></li>
+                <li><a href="projects">Projects</a></li>
+              </ul>
+            </li> 
+            <li><a href="contact">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Blog 1</h1>
+    </section>
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="../images/vcd.png">
+          <h2>New Site</h2>
+          <p>I've had a simplistic website for a while, now I'm trying my hand at something more complex, responsive and professional. That's where this website comes in, I am working on this site to provide information about myself, my channels and my social links as well as blog posts and portfolios for my art and coding.</p>
+
+<script src="https://utteranc.es/client.js"
+        repo="LinuxGamer/linuxgamer.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+        </div>
+        <div class="blog-right">
+          <h3>Post Catagories</h3>
+          <div>
+            <span>
+              Tech
+            </span>
+            <span>
+              1
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>I'm CJ. I'm a self taught artist (in the making). I use both traditional and digital mediums. I am also a software developer.</p>
+      <div class="icons">
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-youtube"></i>
+        <i class="fa fa-twitch"></i>
+        <i class="fa fa-brands fa-discord"></i>
+        <i class="fa fa-brands fa-mastodon"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by CJ</p>
+    </section>
+  <script>
+    
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+  </script>
+  </body>
+</html>
