@@ -428,11 +428,11 @@ h3 {
 	width: 80%;
 	margin: auto;
 	padding: 60px 0;
-	background-color: var(--dark-color);
+	background-color: var(--bg-color);
 }
 .blog-left {
 	flex-basis: 65%;
-	background-color: var(--dark-color);
+	background-color: var(--bg-color);
 }
 .blog-left img {
 	width: 100%;
@@ -445,7 +445,7 @@ h3 {
 .blog-left p {
 	color: var(--mid-color);
 	padding: 0;
-	background-color: var(--dark-color);
+	background-color: var(--bg-color);
 }
 
 .blog-right {
