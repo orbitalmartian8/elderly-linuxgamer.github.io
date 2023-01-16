@@ -7,9 +7,11 @@ Hello and welcome everyone to another video, today we are going to be checking o
 
 ## What is LinkFree?
 
-`LinkFree is the Open Source alternative to LinkTree. A platform where people in tech can have a single hub to showcase their content in order to accelerate their career, whilst contributing to an Open Source project and being part of a community that has a say in where the project is going.`
+```
+LinkFree is the Open Source alternative to LinkTree. A platform where people in tech can have a single hub to showcase their content in order to accelerate their career, whilst contributing to an Open Source project and being part of a community that has a say in where the project is going.
 
-`Your profile will have links to your social media and content. You can also add your timeline, testimonials, and upcoming events that you are participating in.`
+Your profile will have links to your social media and content. You can also add your timeline, testimonials, and upcoming events that you are participating in.
+```
 
 According to the LinkFree GitHub repo.
 
