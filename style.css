@@ -6,6 +6,12 @@
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
 }
+.header {
+  height: 10vh;
+  width: 100%;
+  position: relative;
+}
+
 .wrapper{
   background: #171c24;
   position: fixed;
@@ -278,13 +284,57 @@ nav .content .links{
   font-size: 35px;
   margin: 5px 0;
 }
-.socials-card {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+.row {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.process_column {
+  flex-basis: 31%;
+  aspect-ratio: 1/1.25;
+  margin-bottom: 2%;
+  perspective: 900px;
+}
+
+.process_column:hover {
+  cursor: pointer;
+}
+
+
+.card {
+  height: 35%;
   width: 100%;
-  z-index: -1;
-  padding: 0 20px;
+  position: relative;
+  transition: 0.5s;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.card:hover {
+  border-width: 4px;
+  background-color: navy;
+  color: white;
+}
+
+.process {
+  width: 80%;
+  margin: auto;
   text-align: center;
-  transform: translate(-50%, -50%);
+  padding-top: 80px;
+}
+
+.subheader {
+  height: 30vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner.png);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.subheader h1 {
+  margin-top: 60px;
+  color: #fff;
 }
