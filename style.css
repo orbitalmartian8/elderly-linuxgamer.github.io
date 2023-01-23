@@ -260,8 +260,31 @@ nav .content .links{
   font-size: 35px;
   margin: 5px 0;
 }
-.dropdown {
-	height: 200px;
-	max-height: 200px;
-	overflow-y: scroll;
-  }
+.socials-top-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  z-index: -1;
+  padding: 0 20px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.socials-top-text h2{
+  font-size: 45px;
+  margin: 5px 0;
+}
+.socials-top-text h3{
+  font-size: 35px;
+  margin: 5px 0;
+}
+.socials-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  z-index: -1;
+  padding: 0 20px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
