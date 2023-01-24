@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>LinuxGamer | Blog</title>
+<link>https://linuxgamer.github.io/blog</link>
+<description></description>
+<lastBuildDate>Wed, January 11 2023</lastBuildDate>
+<item>
+<title>Entry Title</title>
+<link>URL Link to the entry</link>
+<guid>https://www.mysite.com/?p=584674</guid>
+<description>This is the description of the content...</description>
+<pubDate>Wed, July 4 2018</pubDate>
+</item>
+</channel>
+</rss>
