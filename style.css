@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: #2E3440;
 }
 
 h1 {
@@ -134,6 +134,29 @@ nav .fa-solid {
 /***** Cards *****/ /* Originally Intended For Our Process Page */
 /*****************/
 
+.home-about {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 80px;
+}
+
+
+.home-about_column {
+  flex-basis: 31%;
+  aspect-ratio: 1/1.25;
+  margin-bottom: 5%;
+  perspective: 900px;
+}
+
+.home-about_column:hover {
+  cursor: pointer;
+}
+
+.home-about_column:hover > .card, .process_column:focus > .card {
+  transform: rotateY(180deg);
+}
+
 .process {
   width: 80%;
   margin: auto;
@@ -203,9 +226,8 @@ nav .fa-solid {
 /***** Clients *****/
 /*******************/
 
-.client-logos {
+.previous-work {
   border-radius: 10px;
-  aspect-ratio: 1/1;
   width: 95%;
 }
 
@@ -243,6 +265,7 @@ nav .fa-solid {
   position: relative;
   cursor: pointer;
   transition: 0.5s;
+  border-radius: 10px;
 }
 
 .hero_button:hover {
