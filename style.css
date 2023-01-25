@@ -18,14 +18,14 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 32px;
-  color: white;
+  color: #5E81AC;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  color: white;
+  color: #81A1C1;
   padding: 10px;
   text-align: center;
 }
@@ -41,7 +41,7 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 16px;
-  color: white;
+  color: #E5E9F0;
   padding: 10px;
 }
 
@@ -50,7 +50,7 @@ p, li {
   font-weight: 300;
   font-size: 16px;
   text-decoration: none;
-  color: white;
+  color: #E5E9F0;
   padding: 1px;
 }
 
@@ -65,9 +65,25 @@ p, li {
 /**********************/
 
 .header {
-  height: 10vh;
+  height: 65vh;
   width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner.png);
+  background-position: center;
+  background-size: cover;
   position: relative;
+}
+
+.header h1 {
+  margin: auto;
+  text-align: center;
+  margin-top: 65px;
+  color: #5E81AC;
+}
+
+.header p {
+  margin: auto;
+  text-align: center;
+  color: #E5E9F0;
 }
 
 nav {
@@ -250,6 +266,7 @@ nav .fa-solid {
   margin-bottom: 40px;
   font-size: 42px;
   padding: 0;
+  color: #5E81AC;
 }
 
 .hero_button {
@@ -287,6 +304,7 @@ nav .fa-solid {
 .footer h2 {
   margin-bottom: 25px;
   margin-top: 20px;
+  color: #81A1C1;
 }
 
 .fa-brands {
@@ -319,6 +337,7 @@ nav .fa-solid {
 
 .subheader h1 {
   margin-top: 60px;
+  color: #5E81AC;
 }
 
 .theteam {
@@ -369,6 +388,7 @@ nav .fa-solid {
   position: absolute;
   opacity: 0;
   transition: 0.5s;
+  color: #81A1C1;
 }
 
 .layer:hover h2 {
@@ -527,6 +547,7 @@ nav .fa-solid {
   }
   .cta h1 {
     font-size: 20px;
+    color: #5E81AC;
   }
   .layer {
     background-color: rgba(228,19,3, 0.4);
@@ -541,6 +562,7 @@ nav .fa-solid {
     bottom: 60%;
     opacity: 1;
     transition: 0.5s;
+    color: #81A1C1;
   }
   .layer p {
     bottom: 49%;
@@ -560,6 +582,7 @@ nav .fa-solid {
     bottom: 75%;
     opacity: 1;
     transition: 0.5s;
+    color: #81A1C1;
   }
   .layer2:hover h2 {
     bottom: 75%;
@@ -579,6 +602,7 @@ nav .fa-solid {
     top: 0;
     left: 0;
     transition: 1s;
+    color: #81A1C1;
   }
   .lowerh2 h2 {
     bottom: 60%;
