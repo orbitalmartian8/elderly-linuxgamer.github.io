@@ -1,0 +1,31 @@
+nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.header p {
+    font-size: 25px;
+}
+
+.about {
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 35px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.about p {
+    font-size: 18px;
+}
