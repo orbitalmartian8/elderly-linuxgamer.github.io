@@ -45,12 +45,12 @@ nav {
 }
 
 .header h1 {
-    font-size: 50px;
+    font-size: 75px;
     font-weight: 700;
 }
 
 .header p {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .about {
@@ -65,4 +65,18 @@ nav {
 
 .about p {
     font-size: 18px;
+}
+
+.featured-art {
+  text-align: center;
+}
+
+.featured-art h1 {
+  font-size: 35px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.featured-art p {
+  font-size: 18px;
 }
