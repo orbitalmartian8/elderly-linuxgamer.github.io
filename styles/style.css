@@ -1,18 +1,45 @@
-.hero {
-  text-align: center;
-  justify-content: center;
+body {
+  text-align:center
 }
 
-.hero h1 {
-  font-weight: 900;
-  font-size: 50px;
+
+nav {
+  display: flex;
+  padding: 1% 2%;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.hero p {
-  font-size: 25px;
+.nav_links {
+  flex: 1;
+  text-align: right;
 }
 
-.about {
-  padding-top: 45px;
-  text-align: center;
+.nav_links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 10px;
+  position: relative;
+}
+
+.nav_links ul li::after {
+  content: ''; 
+  width: 0%;
+  height: 2px; 
+  background: #e41303; 
+  display: block;
+  margin: auto;
+  transition: 0.4s ease;
+}
+
+.nav_links ul li:hover::after { 
+  width: 100%;
+}
+
+.nav_links ul li a {
+  color: black;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
 }
