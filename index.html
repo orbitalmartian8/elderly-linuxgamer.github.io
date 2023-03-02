@@ -1,192 +1,53 @@
-<html lang="en">
+<!doctype html>
+<html>
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="oldlogo.png" type="image/vnd.microsoft.icon">
-    <title>Easy Control Gear</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>LinuxGamer</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-    <!-- Make this remember being dismissed through a cookie or smth -->
-    <div class="alert alert-info alert-dismissible sticky-bottom">
-      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-      <span class="glyphicon glyphicon-exclamation-sign"></span><strong> We use cookies to better your experience!</strong> Read the <a href="privacy.html" class="alert-link" data-toggle="modal" data-target="#privacy-modal">Privacy Policy here.</a>
+    <div>
+      <nav>
+        <ul>
+          <li class="navlogo"><a href="/"><img src="imgs/dead.png" alt="LinuxGamer"></a></li>
+          <li><a class="active" href="/">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="blog">Blog</a></li>
+          <li><a href="portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-    <!-- Modal -->
-<div id="privacy-modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Privacy Policy</h4>
-      </div>
-      <div class="modal-body">
-        <p>Some text in the modal.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
+    <br>
+    <div class="header">
+      <a href="/" class="logo"><img src="imgs/logo.png"></a>
+      <h1>LinuxGamer</h1>
+      <p>Hi</p>
     </div>
-
-  </div>
-</div>
-    <nav class="navbar">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><img src="oldlogo.png" alt="Easy Control Gear"></a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Hello World!</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolios
-              <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Art</a></li>
-                <li><a href="#">Coding</a></li>
-                <li><a href="#">Videos</a></li>
-              </ul>
-            </li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="https://linkfree.eddiehub.io/LinuxGamer"
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="container">
-      <div class="jumbotron text-center">
-        <img src="oldlogo.png" alt="Logo">
-        <h1>LinuxGamer</h1>
-        <p></p>
-        <div class="text-center">
-          <button type="button" class="btn btn-default"><a href="products.html">Browse our Products</a></button>
-          <button type="button" class="btn btn-default"><a href="contact.html">Get in Touch</a></button>
-        </div>
-      </div>
-      <div id="about" class="container">
-        <div class="text-center">
-          <h2>About</h2>
-          <p>We provide our customers with electrical control gear. From bulbs and batteries to ballasts and capacitors.</p>
-        </div>
-      </div>
-      <div id="featured-products" class="container">
-        <div class="text-center">
-          <h2>Featured Products</h2>
-          <p>Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum </p>
-        </div>
-      </div>
-      <!-- Back to top button -->
-      <button
-              type="button"
-              class="btn btn-danger btn-floating btn-lg"
-              id="btn-back-to-top"
-              >
-        <span class="glyphicon glyphicon-arrow-up"></span> Back to Top
-      </button>
-      <script>
-        //Get the button
-        let mybutton = document.getElementById("btn-back-to-top");
-
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function () {
-          scrollFunction();
-        };
-
-        function scrollFunction() {
-          if (
-            document.body.scrollTop > 20 ||
-            document.documentElement.scrollTop > 20
-          ) {
-            mybutton.style.display = "block";
-          } else {
-            mybutton.style.display = "none";
-          }
-        }
-        // When the user clicks on the button, scroll to the top of the document
-        mybutton.addEventListener("click", backToTop);
-
-        function backToTop() {
-          document.body.scrollTop = 0;
-          document.documentElement.scrollTop = 0;
-        }
-      </script>
+    <br>
+    <div class="about" id="about">
+      <h2><u>About</u></h2>
+      <p>I am an artist and developer. I specialise in digital art, 3d modelling, Python, and HTML/CSS/JS code.</p>
+    </div>
+    <div id="latest-blog">
+      <h2>Latest Blog Posts</h2>
+      <ul class="home-blog">
+        <li class="home-blog">
+          <a href="blog/posts/1fpos">
+            <img src="imgs/bazinga.png">
+            <br>
+            <br>
+            <b>First Post on Site</b>
+          </a>
+        </li>
+        <li class="home-blog">
+          <a href="blog/posts/2">
+            <img src="imgs/bazinga.png">
+            <br>
+            <br>
+            Post 2
+          </a>
+        </li>
+      </ul>
+    </div>
   </body>
-
-  <footer>
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-5 col-md-5 col-sm-4 col-xs-12">
-                  <ul class="address">
-                      <span>Contact Us</span>
-                      <li>
-                          <p><b>Location</b></p>
-                            <div class="address-text">
-                            </div>
-                        </li>
-
-                        <li>
-                          <p><b>Email</b></p>
-                          <div class="address-text">
-                            <p>info@gmail.com</p>
-                          </div>
-                        </li>
-                  </ul>
-              </div>
-
-              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                  <ul class="legal">
-                      <span>Legal</span>
-                        <li>
-                          <a href="#">Terms & Conditions</a>
-                        </li>
-
-                        <li>
-                          <a href="privacy.html" class="alert-link" data-toggle="modal" data-target="#privacy-modal">Privacy Policy</a>
-                        </li>
-                        <br>
-                        <br>
-                        <span>Links</span>
-                        <li>
-                          <a href="#">Home</a>
-                        </li>
-                        <li>
-                          <a href="#">About</a>
-                        </li>
-                        <li>
-                          <a href="#">Products</a>
-                        </li>
-                  </ul>
-              </div>
-
-              <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                  <ul class="social">
-                    <span>Social</span>
-                    <li>
-                      <a href="#">Facebook</a>
-                    </li>
-                    <br>
-                    <br>
-                    <li>
-                      <a href="#">Lorum ipsum</a>
-                    </li>
-                  </ul>
-              </div>
-        </div>
-      </div>
-  </footer>
 </html>
