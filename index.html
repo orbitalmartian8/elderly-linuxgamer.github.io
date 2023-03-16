@@ -1,53 +1,129 @@
-<!doctype html>
+<!doctype HTML>
 <html>
   <head>
     <title>LinuxGamer</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div>
-      <nav>
-        <ul>
-          <li class="navlogo"><a href="/"><img src="imgs/dead.png" alt="LinuxGamer"></a></li>
-          <li><a class="active" href="/">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="blog">Blog</a></li>
-          <li><a href="portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">LinuxGamer</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Content
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Art</a></li>
+                <li><a class="dropdown-item" href="#">Coding</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Videos</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Socials</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Store
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Brush Sets</a></li>
+                <li><a class="dropdown-item" href="#">Icon Packs</a></li>
+                <li><a class="dropdown-item" href="#">Wallpapers</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Full Range</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" disabled type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success disabled" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <div class="container py-4">
+      <div class="p-5 mb-4 bg-light rounded-3" id="jumbotron">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold">New Product Released</h1>
+          <p class="col-md-8 fs-4">Using Procreate's built in brush creator, I have created some awesome brushes now available for free over on my store.'</p>
+          <a href="https://linuxgamer99.gumroad.com/l/phing_brushes">
+            <button class="btn btn-primary btn-lg" type="button">Explore</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Pages</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
         </ul>
-      </nav>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Legal</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Socials</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3 text-muted bg-dark py-5 rounded-3">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p>Monthly digest of what's new and exciting from us.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" disabled type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-primary" disabled type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
     </div>
-    <br>
-    <div class="header">
-      <a href="/" class="logo"><img src="imgs/logo.png"></a>
-      <h1>LinuxGamer</h1>
-      <p>Hi</p>
-    </div>
-    <br>
-    <div class="about" id="about">
-      <h2><u>About</u></h2>
-      <p>I am an artist and developer. I specialise in digital art, 3d modelling, Python, and HTML/CSS/JS code.</p>
-    </div>
-    <div id="latest-blog">
-      <h2>Latest Blog Posts</h2>
-      <ul class="home-blog">
-        <li class="home-blog">
-          <a href="blog/posts/1fpos">
-            <img src="imgs/bazinga.png">
-            <br>
-            <br>
-            <b>First Post on Site</b>
-          </a>
-        </li>
-        <li class="home-blog">
-          <a href="blog/posts/2">
-            <img src="imgs/bazinga.png">
-            <br>
-            <br>
-            Post 2
-          </a>
-        </li>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>&copy; 2023 LinuxGamer. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
       </ul>
     </div>
+  </footer>
+</div>
   </body>
 </html>
