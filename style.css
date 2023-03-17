@@ -1,0 +1,3 @@
+.home-product-image:after {
+       box-shadow: inset 0 $offset $blur-radius (-$spread-radius), inset 0 (-$offset) $blur-radius (-$spread-radius);
+}
